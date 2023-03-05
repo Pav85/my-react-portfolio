@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "City Guide",
+        "GitHub": "",
+        "deployment": "",
+    },
+    {
+        "id": 2,
+        "title": "README Generator",
+        "GitHub": "",
+        "deployment": "",
+    },
+    {
+        "id": 3,
+        "title": "Team Profile Generator",
+        "GitHub": "",
+        "deployment": "",
+    },
+    {
+        "id": 4,
+        "title": "Quiz Game",
+        "GitHub": "",
+        "deployment": "",
+    },
+    {
+        "id": 5,
+        "title": "Password Generator",
+        "GitHub": "",
+        "deployment": "",
+    },
+    {
+        "id": 6,
+        "title": "Console Finances",
+        "GitHub": "",
+        "deployment": "",
+    }
+]
