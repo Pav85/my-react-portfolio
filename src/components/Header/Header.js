@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,11 +20,28 @@ function Header() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" href="#">
-            Home <span class="sr-only">(current)</span>
+          <a class="nav-link" href="#">
+            {/* Home <span class="sr-only">(current)</span> */}
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
+            </NavLink>
           </a>
           <a class="nav-link" href="#">
-            Features
+            <NavLink
+              to="projects"
+              end
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Projects
+            </NavLink>
           </a>
           <a class="nav-link" href="#">
             Pricing
