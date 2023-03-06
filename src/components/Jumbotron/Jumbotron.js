@@ -1,14 +1,14 @@
 import React from "react";
+import "./jumbotron.css";
+
+// import { Jumbotron } from "reactstrap";
 
 function Jumbotron() {
   return (
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
+    <div className="jumbotron jumbotron-fluid myJumbotron">
+      <div className="container jumbotronText">
+        <h1 className="display-8">Hi 👋, I'm Pawel </h1>
+        <p className="lead">A web developer</p>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 import React from "react";
+import Jumbotron from "../Jumbotron/Jumbotron";
 
 function HomePage() {
-  return <h2>I like pancakes</h2>;
+  return <Jumbotron />;
 }
 
 export default HomePage;

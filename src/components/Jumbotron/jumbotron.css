@@ -1,0 +1,19 @@
+/* jumbotron */
+
+.myJumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-weight: 200 !important;
+  min-height: 500px !important;
+}
+
+.jumbotronText {
+  color: white;
+}
+
+.jumbotronText p {
+  font-size: 36px;
+}
