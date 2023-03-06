@@ -1,7 +1,12 @@
 import React from "react";
+import ContactPageJumbotron from "../ContactPageJumbotron/ContactPageJumbotron";
 
 function ContactPage() {
-  return <p>cats are evil</p>;
+  return (
+    <div>
+      <ContactPageJumbotron />
+    </div>
+  );
 }
 
 export default ContactPage;

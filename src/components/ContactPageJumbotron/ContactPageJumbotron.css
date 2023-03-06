@@ -1,0 +1,19 @@
+.myContactJumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.jumbotronTextStyle {
+  color: white;
+  opacity: 0.9;
+}
+
+.jumbotronTextStyle p {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 0.7;
+}
