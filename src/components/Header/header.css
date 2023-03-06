@@ -1,11 +1,13 @@
 .myNavbar {
   display: flex;
-  /* justify-content: center    ; */
+  /* justify-content: center !important; */
+  /* align-items: center !important; */
 
   background-color: transparent;
 }
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap") */
+
 .navBrand {
   font-size: 36px !important;
-  /* font-family: "Roboto Slab", serif; */
+  color: black !important;
+  opacity: 0.6;
 }

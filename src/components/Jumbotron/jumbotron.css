@@ -5,9 +5,22 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 30px;
+  /* padding: 30px; */
   font-weight: 200 !important;
-  min-height: 500px !important;
+  min-height: 220px !important;
+
+  /* background-image: url(/src/components/Images/photoPawel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%; */
+
+  /* overflow: hidden; */
+  /* border-radius: 50% !important; */
+
+  /* border-radius: 50% !important; */
+
+  /* background-image: url(/src/components/Images/4667_0219651.jpg);
+  background-repeat: no-repeat; */
 }
 
 .jumbotronText {
@@ -16,4 +29,15 @@
 
 .jumbotronText p {
   font-size: 36px;
+}
+
+.myImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-image: url(/src/components/Images/photoPawel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  min-height: 200px;
 }
