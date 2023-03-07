@@ -1,0 +1,21 @@
+.contactStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+  margin-top: 65px !important;
+}
+
+.contactBtn {
+  color: #1e2019 !important;
+  opacity: 0.9;
+  font-size: 24px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.contactBtn:hover {
+  transform: translateY(4px) !important;
+  /* transform: translateZ(5px) !important; */
+}
