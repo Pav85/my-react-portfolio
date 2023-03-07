@@ -5,6 +5,8 @@
   align-items: center;
   text-align: center;
   margin-top: 30px;
+  /* border-bottom: 2px rgba(193, 73, 83, 0.5) solid !important; */
+  padding-bottom: 30px;
 }
 
 .jumbotronTextStyle {

@@ -10,7 +10,7 @@ function ContactPage() {
       <div className="row contactStyle">
         <div className="col-sm">
           <a href="mailto:pawel.werbowy@gmail.com" class="btn contactBtn">
-            <i class="fa fa-at"></i> Email me
+            <i class="fa fa-at icon"></i>&nbsp;&nbsp;Email me
           </a>
         </div>
         <div className="col-sm">
@@ -19,7 +19,7 @@ function ContactPage() {
             target="_blank"
             className="btn contactBtn"
           >
-            <i className="fa fa-github"></i> GitHub
+            <i className="fa fa-github icon"></i>&nbsp;&nbsp;GitHub
           </a>
         </div>
         <div className="col-sm">
@@ -28,7 +28,7 @@ function ContactPage() {
             target="_blank"
             className="btn contactBtn"
           >
-            <i className="fa fa-file"></i> Resume
+            <i className="fa fa-file icon"></i>&nbsp;&nbsp;Resume
           </a>
         </div>
         <div className="col-sm">
@@ -37,7 +37,7 @@ function ContactPage() {
             target="_blank"
             className="btn contactBtn"
           >
-            <i className="fa fa-linkedin"></i> LinkedIn
+            <i className="fa fa-linkedin icon"></i>&nbsp;&nbsp;LinkedIn
           </a>
         </div>
         <div className="col-sm">
@@ -46,12 +46,12 @@ function ContactPage() {
             target="_blank"
             class="btn contactBtn"
           >
-            <i class="fa fa-facebook"></i> Facebook
+            <i class="fa fa-facebook icon"></i>&nbsp;&nbsp;Facebook
           </a>
         </div>
         <div className="col-sm">
           <a href="tel: 00447510725530" target="_blank" class="btn contactBtn">
-            <i class="fa fa-phone"></i> Call me
+            <i class="fa fa-phone icon"></i>&nbsp;&nbsp;Call me
           </a>
         </div>
       </div>
