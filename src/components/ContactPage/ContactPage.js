@@ -17,6 +17,7 @@ function ContactPage() {
           <a
             href="https://github.com/pav85"
             target="_blank"
+            rel="noreferrer"
             className="btn contactBtn"
           >
             <i className="fa fa-github icon"></i>&nbsp;&nbsp;GitHub
@@ -26,6 +27,7 @@ function ContactPage() {
           <a
             href="https://docs.google.com/document/d/1hlYQQBNad4ctSdPuTKJDcf9bz0epDj0P/edit?usp=sharing&ouid=100228695758662225835&rtpof=true&sd=true"
             target="_blank"
+            rel="noreferrer"
             className="btn contactBtn"
           >
             <i className="fa fa-file icon"></i>&nbsp;&nbsp;Resume
@@ -35,6 +37,7 @@ function ContactPage() {
           <a
             href="https://www.linkedin.com/in/pawel-werbowy-989ab2186/"
             target="_blank"
+            rel="noreferrer"
             className="btn contactBtn"
           >
             <i className="fa fa-linkedin icon"></i>&nbsp;&nbsp;LinkedIn
@@ -44,13 +47,19 @@ function ContactPage() {
           <a
             href="https://www.facebook.com/pawel.werbowy/"
             target="_blank"
+            rel="noreferrer"
             class="btn contactBtn"
           >
             <i class="fa fa-facebook icon"></i>&nbsp;&nbsp;Facebook
           </a>
         </div>
         <div className="col-sm">
-          <a href="tel: 00447510725530" target="_blank" class="btn contactBtn">
+          <a
+            href="tel: 00447510725530"
+            target="_blank"
+            rel="noreferrer"
+            class="btn contactBtn"
+          >
             <i class="fa fa-phone icon"></i>&nbsp;&nbsp;Call me
           </a>
         </div>

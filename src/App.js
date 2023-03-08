@@ -1,16 +1,15 @@
 import React from "react";
-// import "./App.css";
-// import "./components/HomePage/HomePage";
 import HomePage from "./components/HomePage/HomePage";
 import ContactPage from "./components/ContactPage/ContactPage";
 import Header from "./components/Header/Header";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./index.css";
 
 function App() {
   return (
     <Router>
-      <div className="container-fluid body">
+      <div className="body">
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />

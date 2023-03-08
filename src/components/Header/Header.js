@@ -16,7 +16,7 @@ function Header(args) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="myContainer">
       <Navbar {...args} className="myNavbar">
         <NavbarBrand href="/" className="navBrand">
           Portfolio page
@@ -47,5 +47,3 @@ function Header(args) {
 }
 
 export default Header;
-
-// export default Example;
