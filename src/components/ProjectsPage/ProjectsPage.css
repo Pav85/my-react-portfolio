@@ -1,9 +1,14 @@
-/*  */
-.im {
-  /* image: url(/src/projects.json); */
+.myCol {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
 }
-/* .myCol {
-  display: flex !important;
-  justify-content: center !important
-  min-height: 225px;
-} */
+
+.colStyle {
+  display: flex;
+  justify-content: center !important;
+  margin-bottom: 50px;
+}

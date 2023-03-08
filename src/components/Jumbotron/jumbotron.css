@@ -5,30 +5,21 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* padding: 30px; */
   font-weight: 200 !important;
   min-height: 220px !important;
-
-  /* background-image: url(/src/components/Images/photoPawel.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20%; */
-
-  /* overflow: hidden; */
-  /* border-radius: 50% !important; */
-
-  /* border-radius: 50% !important; */
-
-  /* background-image: url(/src/components/Images/4667_0219651.jpg);
-  background-repeat: no-repeat; */
 }
 
 .jumbotronText {
   color: white;
 }
 
+.jumbotronText h1 {
+  font-size: 64px !important;
+}
+
 .jumbotronText p {
   font-size: 36px;
+  text-align: center;
 }
 
 .myImage {
@@ -40,4 +31,9 @@
   background-position: center;
   background-size: 200px;
   min-height: 200px;
+}
+
+.ruleStyle {
+  margin-left: 200px !important;
+  margin-right: 200px !important;
 }

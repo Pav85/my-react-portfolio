@@ -2,39 +2,67 @@
     {
         "id": 0,
         "title": "City Guide",
+        "image": "https://raw.githubusercontent.com/Pav85/city-guide/main/assets/images/screenshot.png",
         "github": "https://github.com/Pav85/city-guide",
         "deployment": "https://pav85.github.io/city-guide",
-        "image": "photoPawel.png"
+        "description": "Web page that allows user to search for any city and as a result receive information useful for travelling."
+
+        
     },
     {
         "id": 1,
         "title": "README Generator",
+        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "github": "https://github.com/Pav85/my-README-generator",
-        "deployment": ""
+        "deployment": "https://pav85.github.io/my-README-generator/",
+        "description": "This project is designed to help create a professional README file for all repositories."
     },
     {
         "id": 2,
         "title": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/Pav85/my-team-profile-generator/main/images/screenshot.png",
         "github": "https://github.com/Pav85/my-team-profile-generator",
         "deployment": "https://pav85.github.io/my-team-profile-generator/",
-        "image": "./src/components/Images/TeamProfileGenerator"
+        "description": "This project is designed to create a team profile page using Node.js."
     },
     {
         "id": 3,
         "title": "Quiz Game",
+        "image": "https://raw.githubusercontent.com/Pav85/quiz-game/main/assets/images/screenshot.png",
         "github": "https://github.com/Pav85/quiz-game",
-        "deployment": "https://pav85.github.io/quiz-game/"
+        "deployment": "https://pav85.github.io/quiz-game/",
+        "description": "Timed coding quiz with multiple-choice questions about JavaScript coding language."
     },
     {
         "id": 4,
         "title": "Password Generator",
+        "image": "https://raw.githubusercontent.com/Pav85/password-genarator/main/Images/screenshot.png",
         "github": "https://github.com/Pav85/password-genarator",
-        "deployment": "https://pav85.github.io/password-genarator/"
+        "deployment": "https://pav85.github.io/password-genarator/",
+        "description": "Random password generator defined by series of prompts."
     },
     {
         "id": 5,
         "title": "Console Finances",
+        "image": "https://raw.githubusercontent.com/Pav85/console-finances/main/Assets/Images/Screenshot%20challenge%204.png",
         "github": "https://github.com/Pav85/console-finances",
-        "deployment": "https://pav85.github.io/console-finances/"
+        "deployment": "https://pav85.github.io/console-finances/",
+        "description": "Code that helps analysing the financial records of a company."
+    },
+    {
+        "id": 6,
+        "title": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/Pav85/weather-dashboard/main/assets/images/screenshot2.png",
+        "github": "https://github.com/Pav85/weather-dashboard",
+        "deployment": "https://pav85.github.io/weather-dashboard/",
+        "description": "Weather Dashboard that displays weather information of city searched by user."
+    },
+    {
+        "id": 7,
+        "title": "Work Day Scheduler",
+        "image": "https://raw.githubusercontent.com/Pav85/work-day-scheduler/main/assets/images/screenshot.png",
+        "github": "https://github.com/Pav85/work-day-scheduler",
+        "deployment": "https://pav85.github.io/weather-dashboard/",
+        "description": "Simple work day organiser based on standard office hours from 9 - 17."
     }
 ]
