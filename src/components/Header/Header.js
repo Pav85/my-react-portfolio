@@ -1,67 +1,3 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// function Header() {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-//       {/* <a className="navbar-brand" href="#">
-//         Navbar
-//       </a> */}
-//       <button
-//         className="navbar-toggler"
-//         type="button"
-//         datatoggle="collapse"
-//         datatarget="#navbarNavAltMarkup"
-//         ariacontrols="navbarNavAltMarkup"
-//         ariaexpanded="false"
-//         arialabel="Toggle navigation"
-//       >
-//         <span className="navbar-toggler-icon"></span>
-//       </button>
-//       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-//         <div className="navbar-nav">
-//           <a className="nav-link" href="#">
-//             {/* Home <span className="sr-only">(current)</span> */}
-//             <NavLink
-//               to="/"
-//               end
-//               className={({ isActive }) =>
-//                 isActive ? "nav-link active" : "nav-link"
-//               }
-//             >
-//               Home
-//             </NavLink>
-//           </a>
-//           <a className="nav-link" href="#">
-//             <NavLink
-//               to="projects"
-//               end
-//               className={({ isActive }) =>
-//                 isActive ? "nav-link active" : "nav-link"
-//               }
-//             >
-//               Projects
-//             </NavLink>
-//           </a>
-//           <a className="nav-link" href="#">
-//             <NavLink
-//               to="contacts"
-//               end
-//               className={({ isActive }) =>
-//                 isActive ? "nav-link active" : "nav-link"
-//               }
-//             >
-//               Contact
-//             </NavLink>
-//           </a>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Header;
-
 import React, { useState } from "react";
 import {
   Collapse,
@@ -71,11 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  // UncontrolledDropdown,
-  // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // NavbarText,
 } from "reactstrap";
 import "./header.css";
 
@@ -88,35 +19,27 @@ function Header(args) {
     <div>
       <Navbar {...args} className="myNavbar">
         <NavbarBrand href="/" className="navBrand">
-          My portfolio page
+          Portfolio page
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle} className="navbarToggler" />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/projects/">Projects</NavLink>
+              <NavLink href="/" className="navLink">
+                Home
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact/">Contact</NavLink>
-            </NavItem>
-            {/* <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink href="/projects/" className="navLink">
+                Projects
               </NavLink>
-            </NavItem> */}
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact/" className="navLink">
+                Contact
+              </NavLink>
+            </NavItem>
           </Nav>
-          {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
     </div>

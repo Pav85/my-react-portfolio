@@ -1,13 +1,27 @@
 .myNavbar {
-  display: flex;
-  /* justify-content: center !important; */
-  /* align-items: center !important; */
-
   background-color: transparent;
 }
 
 .navBrand {
   font-size: 36px !important;
-  color: black !important;
-  opacity: 0.6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #f2f4f3 !important;
+  opacity: 0.7;
+}
+
+.navbarToggler {
+  color: #f2f4f3 !important;
+  opacity: 0.7;
+}
+
+.navLink {
+  color: #f2f4f3 !important;
+  opacity: 0.7;
+}
+
+.navLink:hover {
+  transform: translateX(5px);
+  transition-duration: 500ms;
+  background-color: rgba(215, 38, 61, 0.3);
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "../Wrapper/Wrapper";
 import ProjectsPageJumbotron from "../ProjectsPageJumbotron/ProjectsPageJumbotron";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import projects from "./projects.json";

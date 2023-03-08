@@ -1,11 +1,9 @@
 .myProjectsJumbotron {
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  /* border-bottom: 2px rgba(193, 73, 83, 0.5) solid !important; */
   padding-bottom: 30px;
 }
 
@@ -18,10 +16,6 @@ h1 {
   opacity: 0.9;
 }
 
-/* .projectsJumbotronTextStyle h1 {
-  border-bottom: red !important;
-} */
-
 .projectsJumbotronTextStyle p {
   font-size: 36px;
   font-weight: 100;
@@ -33,6 +27,6 @@ hr {
   background: red !important;
   border: none !important;
   height: 2px;
-  margin-right: 120px !important;
-  margin-left: 120px !important;
+  margin-right: 100px !important;
+  margin-left: 100px !important;
 }
