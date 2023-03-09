@@ -1,7 +1,7 @@
 import React from "react";
 import ContactPageJumbotron from "../ContactPageJumbotron/ContactPageJumbotron";
 import "./ContactPage.css";
-import "https://kit.fontawesome.com/3c268dfe1e.js";
+// import "https://kit.fontawesome.com/3c268dfe1e.js";
 
 function ContactPage() {
   return (
