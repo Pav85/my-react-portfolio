@@ -13,7 +13,7 @@ This is my portfolio webpage made with React.js
 
 ## Table of Contents
 
-**[User&nbsp;Story](#User Story)**<br>
+**[User&nbsp;Story](#User&nbsp;Story)**<br>
 
 **[Installation](#Installation)**<br>
 
