@@ -17,7 +17,6 @@
 
 .contactBtn:hover {
   transform: translateY(4px) !important;
-  /* transform: translateZ(5px) !important; */
 }
 
 .icon {
