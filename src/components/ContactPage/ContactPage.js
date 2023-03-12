@@ -1,7 +1,9 @@
 import React from "react";
 import ContactPageJumbotron from "../ContactPageJumbotron/ContactPageJumbotron";
 import "./ContactPage.css";
-// import "https://kit.fontawesome.com/3c268dfe1e.js";
+// import "https://kit.fontawesome.com/3c268dfe1e.js"; // needs to be changed
+// import { faGithub } from "@fortawesome/free-solid-svg-icons";
+import { FaGithub } from "react-icons/fa";
 
 function ContactPage() {
   return (
@@ -20,7 +22,8 @@ function ContactPage() {
             rel="noreferrer"
             className="btn contactBtn"
           >
-            <i className="fa fa-github icon"></i>&nbsp;&nbsp;GitHub
+            <FaGithub />
+            &nbsp;&nbsp;GitHub
           </a>
         </div>
         <div className="col-sm">

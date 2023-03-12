@@ -30,12 +30,12 @@ function Header(args) {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects/" className="navLink">
+              <NavLink href="/#/projects" className="navLink">
                 Projects
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact/" className="navLink">
+              <NavLink href="/#/contact" className="navLink">
                 Contact
               </NavLink>
             </NavItem>
