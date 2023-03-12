@@ -30,12 +30,15 @@ function Header(args) {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/projects" className="navLink">
+              <NavLink
+                href="/my-react-portfolio/#/projects"
+                className="navLink"
+              >
                 Projects
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/contact" className="navLink">
+              <NavLink href="/my-react-portfolio/#/contact" className="navLink">
                 Contact
               </NavLink>
             </NavItem>
