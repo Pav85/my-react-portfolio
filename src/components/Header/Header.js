@@ -18,7 +18,7 @@ function Header(args) {
   return (
     <div className="myContainer">
       <Navbar {...args} className="myNavbar">
-        <NavbarBrand href="/" className="navBrand">
+        <NavbarBrand href="/my-react-portfolio/#/" className="navBrand">
           Portfolio page
         </NavbarBrand>
         <NavbarToggler onClick={toggle} className="navbarToggler" />
