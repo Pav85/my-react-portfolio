@@ -25,7 +25,7 @@ function Header(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/" className="navLink">
+              <NavLink href="/my-react-portfolio/#/" className="navLink">
                 Home
               </NavLink>
             </NavItem>
