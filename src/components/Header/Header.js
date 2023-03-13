@@ -18,14 +18,21 @@ function Header(args) {
   return (
     <div className="myContainer">
       <Navbar {...args} className="myNavbar">
-        <NavbarBrand href="/my-react-portfolio/#/" className="navBrand">
+        <NavbarBrand
+          // href="portf/my-react-olio/#/home"
+          className="navBrand"
+        >
           Portfolio page
         </NavbarBrand>
         <NavbarToggler onClick={toggle} className="navbarToggler" />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/my-react-portfolio/#/" className="navLink">
+              <NavLink
+                href="/my-react-portfolio/#/home"
+                className="navLink"
+                // onClick={!toggle}
+              >
                 Home
               </NavLink>
             </NavItem>

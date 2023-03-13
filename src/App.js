@@ -9,10 +9,15 @@ import "./index.css";
 function App() {
   return (
     <div>
-      <Router basename="/" className="body">
+      <Router
+        // basename="/"
+        // exact
+        // path="http://localhost:3000/#/home"
+        className="body"
+      >
         <Header />
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/home/" element={<HomePage />} />
           <Route exact path="/projects/" element={<ProjectsPage />} />
           <Route exact path="/contact/" element={<ContactPage />} />
         </Routes>

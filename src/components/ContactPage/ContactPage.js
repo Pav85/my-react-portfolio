@@ -1,7 +1,14 @@
 import React from "react";
 import ContactPageJumbotron from "../ContactPageJumbotron/ContactPageJumbotron";
 import "./ContactPage.css";
-import { FaGithub } from "react-icons/fa";
+import {
+  FaAt,
+  FaGithub,
+  FaFile,
+  FaLinkedin,
+  FaFacebook,
+  FaPhone,
+} from "react-icons/fa";
 
 function ContactPage() {
   return (
@@ -10,7 +17,8 @@ function ContactPage() {
       <div className="row contactStyle">
         <div className="col-sm">
           <a href="mailto:pawel.werbowy@gmail.com" class="btn contactBtn">
-            <i class="fa fa-at icon"></i>&nbsp;&nbsp;Email me
+            <FaAt className="icon" size={"36px"} />
+            &nbsp;Email me
           </a>
         </div>
         <div className="col-sm">
@@ -20,8 +28,8 @@ function ContactPage() {
             rel="noreferrer"
             className="btn contactBtn"
           >
-            <FaGithub className="contactBtn" />
-            &nbsp;&nbsp;GitHub
+            <FaGithub className="icon" size={"36px"} />
+            &nbsp;GitHub
           </a>
         </div>
         <div className="col-sm">
@@ -31,7 +39,8 @@ function ContactPage() {
             rel="noreferrer"
             className="btn contactBtn"
           >
-            <i className="fa fa-file icon"></i>&nbsp;&nbsp;Resume
+            <FaFile className="icon" size={"36px"} />
+            &nbsp;Resume
           </a>
         </div>
         <div className="col-sm">
@@ -41,7 +50,8 @@ function ContactPage() {
             rel="noreferrer"
             className="btn contactBtn"
           >
-            <i className="fa fa-linkedin icon"></i>&nbsp;&nbsp;LinkedIn
+            <FaLinkedin className="icon" size={"36px"} />
+            &nbsp;LinkedIn
           </a>
         </div>
         <div className="col-sm">
@@ -51,7 +61,8 @@ function ContactPage() {
             rel="noreferrer"
             class="btn contactBtn"
           >
-            <i class="fa fa-facebook icon"></i>&nbsp;&nbsp;Facebook
+            <FaFacebook className="icon" size={"36px"} />
+            &nbsp;Facebook
           </a>
         </div>
         <div className="col-sm">
@@ -61,7 +72,8 @@ function ContactPage() {
             rel="noreferrer"
             class="btn contactBtn"
           >
-            <i class="fa fa-phone icon"></i>&nbsp;&nbsp;Call me
+            <FaPhone className="icon" size={"36px"} />
+            &nbsp;Call me
           </a>
         </div>
       </div>
