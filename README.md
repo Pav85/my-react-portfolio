@@ -52,7 +52,8 @@ npm install gh-pages --save-dev
 
 ## Deployment
 
-Click on the link below to open the page:
+Click on the link below to open the page:<br>
+https://pav85.github.io/my-react-portfolio/
 
 After running the app your generated team page should look similar to this:
 
