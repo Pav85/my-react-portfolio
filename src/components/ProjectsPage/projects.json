@@ -62,7 +62,7 @@
         "title": "Work Day Scheduler",
         "image": "https://raw.githubusercontent.com/Pav85/work-day-scheduler/main/assets/images/screenshot.png",
         "github": "https://github.com/Pav85/work-day-scheduler",
-        "deployment": "https://pav85.github.io/weather-dashboard/",
+        "deployment": "https://pav85.github.io/work-day-scheduler/",
         "description": "Simple work day organiser based on standard office hours from 9 - 17."
     }
 ]
