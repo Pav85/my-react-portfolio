@@ -12,6 +12,7 @@ function ProjectCard(props) {
       </a>
       <div className="content">
         <h4>{props.title}</h4>
+        <hr />
         <p>{props.description}</p>
         <a href={props.github} target="_blank" rel="noreferrer">
           <button type="button" className="btn btnStyle">

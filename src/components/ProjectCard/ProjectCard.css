@@ -9,7 +9,7 @@
   position: relative;
   width: 325px;
   text-align: left;
-  min-height: 380px;
+  min-height: 420px;
 }
 
 .card:hover {
@@ -60,6 +60,7 @@ p {
   width: 130px !important;
   text-decoration: none;
   font-size: 22px !important;
+  padding-bottom: 30px !important;
 }
 
 .btnStyle:hover {
