@@ -10,18 +10,16 @@ function App() {
   return (
     <div>
       <Router
-        // basename="/"
-        // exact
-        // path="http://localhost:3000/#/home"
-        className="body"
+      // className="body"
       >
         <Header />
         <Routes>
+          <Route exact path="/" element={<HomePage />} />
           <Route exact path="/home/" element={<HomePage />} />
           <Route exact path="/projects/" element={<ProjectsPage />} />
           <Route exact path="/contact/" element={<ContactPage />} />
         </Routes>
-        {/* <HomePage /> */}
+        {/* <HomePage className="hide" /> */}
       </Router>
       {/* <HomePage /> */}
     </div>
