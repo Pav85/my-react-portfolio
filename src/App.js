@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage/HomePage";
 import ContactPage from "./components/ContactPage/ContactPage";
 import Header from "./components/Header/Header";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
+import Footer from "./components/Footer/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
 
@@ -19,6 +20,8 @@ function App() {
           <Route exact path="/projects/" element={<ProjectsPage />} />
           <Route exact path="/contact/" element={<ContactPage />} />
         </Routes>
+        <Footer />
+
         {/* <HomePage className="hide" /> */}
       </Router>
       {/* <HomePage /> */}
