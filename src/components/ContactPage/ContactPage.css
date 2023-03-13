@@ -4,9 +4,9 @@
   justify-content: center !important;
   align-items: center;
   text-align: center;
-  /* margin-top: 30px !important; */
   font-family: "Roboto Slab", serif;
-  min-height: 190px;
+  min-height: 212px;
+  padding-bottom: 40px;
 }
 
 .contactBtn {

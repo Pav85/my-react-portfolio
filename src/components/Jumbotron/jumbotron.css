@@ -1,5 +1,3 @@
-/* jumbotron */
-
 .myJumbotron {
   display: flex;
   align-items: center;
@@ -8,6 +6,7 @@
   font-weight: 200 !important;
   min-height: 220px !important;
   padding-top: 30px;
+  font-family: "Roboto Slab", serif !important;
 }
 
 .jumbotronText {
@@ -21,6 +20,8 @@
 .jumbotronText p {
   font-size: 36px;
   text-align: center;
+  font-weight: 100;
+  opacity: 0.9;
 }
 
 .myImage {
@@ -35,6 +36,6 @@
 }
 
 .ruleStyle {
-  margin-left: 200px !important;
-  margin-right: 200px !important;
+  margin-left: 140px !important;
+  margin-right: 140px !important;
 }

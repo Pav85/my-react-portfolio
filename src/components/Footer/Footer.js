@@ -10,7 +10,7 @@ function Footer() {
       <p>
         Made with {<FaHeart className="icon" size={"24px"} />} by Pawel
         using&nbsp;
-        {<FaReact className="icon" size={"24px"} />}&nbsp;&nbsp;&nbsp;&nbsp;
+        {<FaReact className="icon" size={"28px"} />}&nbsp;&nbsp;&nbsp;&nbsp;
       </p>
     </footer>
   );

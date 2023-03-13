@@ -15,8 +15,7 @@ function ProjectCard(props) {
         <p>{props.description}</p>
         <a href={props.github} target="_blank" rel="noreferrer">
           <button type="button" className="btn btnStyle">
-            {/* <i className="fa fa-github icon"></i> */}
-            <FaGithub className="icon" size={"28px"} />
+            <FaGithub className="icon" size={"26px"} />
             &nbsp;GitHub
           </button>
         </a>

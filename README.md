@@ -13,7 +13,7 @@ This is my portfolio webpage made with React.js
 
 ## Table of Contents
 
-**[User&nbsp;Story](#User&nbsp;Story)**<br>
+**[User&nbsp;Story](#User Story)**<br>
 
 **[Installation](#Installation)**<br>
 
@@ -48,11 +48,6 @@ npm install reactstrap react react-dom
 
 ```
 npm install gh-pages --save-dev
-```
-
-```
-npm i @fortawesome/react-fontawesome
-
 ```
 
 ## Deployment

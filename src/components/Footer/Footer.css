@@ -1,14 +1,11 @@
 footer {
   display: flex !important;
-  position: relative !important;
-  /* position: absolute; */
-  /* justify-content: space-evenly; */
+  position: static;
   justify-content: flex-end;
-  /* justify-content: flex-start; */
   align-items: center !important;
   opacity: 0.9;
   background-color: transparent;
-  color: white;
+  color: #f2f4f3 !important;
   font-size: 18px;
   font-weight: 100;
   padding-top: 180px !important;
@@ -20,5 +17,6 @@ footer {
 }
 
 footer p {
-  font-family: "Roboto Slab", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
 }

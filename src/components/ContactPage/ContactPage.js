@@ -9,6 +9,7 @@ import {
   FaFacebook,
   FaPhone,
 } from "react-icons/fa";
+import "../fonts.css";
 
 function ContactPage() {
   return (

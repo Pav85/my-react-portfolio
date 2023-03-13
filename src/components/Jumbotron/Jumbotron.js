@@ -1,5 +1,6 @@
 import React from "react";
 import "./jumbotron.css";
+import "../fonts.css";
 
 function Jumbotron() {
   return (
