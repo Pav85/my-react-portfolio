@@ -12,9 +12,7 @@ function App() {
   return (
     <div>
       <Router className="body">
-        <Header
-        // args={navSettings}
-        />
+        <Header />
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/home/" element={<HomePage />} />
