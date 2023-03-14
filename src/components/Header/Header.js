@@ -1,49 +1,9 @@
 import React from "react";
 import "./header.css";
 
-// function Header(args) {
 function Header() {
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // const toggle = () => setIsOpen(!isOpen);
-
   return (
     <div className="myContainer">
-      {/* <Navbar {...args} classNameName="myNavbar">
-        <NavbarBrand
-          // href="portf/my-react-olio/#/home"
-          clasName="navBrand"
-        >
-          Portfolio page
-        </NavbarBrand>
-        <NavbarToggler onClick={toggle} className="navbarToggler" />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
-            <NavItem>
-              <NavLink
-                href="/my-react-portfolio/#/home"
-                className="navLink"
-                
-              >
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href="/my-react-portfolio/#/projects"
-                className="navLink"
-              >
-                Projects
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/my-react-portfolio/#/contact" className="navLink">
-                Contact
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar> */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary myNavbar">
         <div className="container-fluid">
           <a
