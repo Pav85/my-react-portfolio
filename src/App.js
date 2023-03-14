@@ -9,10 +9,17 @@ import "./index.css";
 import "./components/fonts.css";
 
 function App() {
+  //   const navSettings = {
+  //     color: "danger",
+  //     expand: true,
+  //   };
+
   return (
     <div>
       <Router className="body">
-        <Header />
+        <Header
+        // args={navSettings}
+        />
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/home/" element={<HomePage />} />

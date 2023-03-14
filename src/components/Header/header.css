@@ -1,10 +1,7 @@
-.myContainer {
-  width: 100%;
-}
-
 .myNavbar {
-  background-color: transparent;
+  background-color: transparent !important;
   width: 100%;
+  /* min-height: 42px !important; */
 }
 
 .navBrand {
@@ -23,13 +20,13 @@
 .navLink {
   color: #f2f4f3 !important;
   opacity: 0.7;
+  font-size: 19px !important;
+  font-family: "Roboto Slab", serif !important;
 }
 
 .navLink:hover {
   transform: translateX(5px);
   transition-duration: 500ms;
   background-color: rgba(215, 38, 61, 0.3);
-}
-.navbar-nav {
-  min-height: 20vh;
+  border-radius: 12px;
 }

@@ -1,26 +1,18 @@
-import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from "reactstrap";
+import React from "react";
 import "./header.css";
 
-function Header(args) {
-  const [isOpen, setIsOpen] = useState(false);
+// function Header(args) {
+function Header() {
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div className="myContainer">
-      <Navbar {...args} className="myNavbar">
+      {/* <Navbar {...args} classNameName="myNavbar">
         <NavbarBrand
           // href="portf/my-react-olio/#/home"
-          className="navBrand"
+          clasName="navBrand"
         >
           Portfolio page
         </NavbarBrand>
@@ -31,7 +23,7 @@ function Header(args) {
               <NavLink
                 href="/my-react-portfolio/#/home"
                 className="navLink"
-                // onClick={!toggle}
+                
               >
                 Home
               </NavLink>
@@ -51,7 +43,57 @@ function Header(args) {
             </NavItem>
           </Nav>
         </Collapse>
-      </Navbar>
+      </Navbar> */}
+      <nav className="navbar navbar-expand-lg bg-body-tertiary myNavbar">
+        <div className="container-fluid">
+          <a
+            className="navbar-brand navBrand"
+            href="/my-react-portfolio/#/home"
+          >
+            Portfolio page
+          </a>
+          <button
+            className="navbar-toggler navbarToggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarToggler">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a
+                  className="nav-link active navLink"
+                  aria-current="page"
+                  href="/my-react-portfolio/#/home"
+                >
+                  &nbsp;&nbsp;Home&nbsp;&nbsp;
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link navLink"
+                  href="/my-react-portfolio/#/projects"
+                >
+                  &nbsp;&nbsp;Projects&nbsp;&nbsp;
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link navLink"
+                  href="/my-react-portfolio/#/contact"
+                >
+                  &nbsp;&nbsp;Contact&nbsp;&nbsp;
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 }
